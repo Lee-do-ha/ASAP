@@ -1,0 +1,116 @@
+.explain {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  width: 100%;
+}
+
+.pick-date {
+  border: 1px solid #eaeaea;
+  color: #7a7a7a;
+  border-radius: 5px;
+  padding: 0 1rem;
+  margin-right: 2rem;
+}
+
+.check-back {
+  background-color: #eaeaea;
+  color: #7a7a7a;
+}
+
+.check-date {
+  outline: none;
+}
+
+.check-button {
+  background-color: #004aad;
+  padding: 6px 1rem 5px 1rem;
+  color: #ffffff;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: #003e8f;
+  }
+}
+
+.padding {
+  padding: 6px 15px 5px 0;
+}
+
+.data {
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.data-input {
+  width: 87.5%;
+  height: 150px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.data-input:focus {
+  outline: none;
+}
+
+.x-button {
+  margin-bottom: 5px;
+  color: #7a7a7a;
+  border-radius: 10px;
+  border: 1px solid #bbbbbb;
+
+  &:hover {
+    background-color: #bbbbbb;
+    color: #ffffff;
+  }
+}
+
+.copy {
+  padding: 3px;
+  width: 27px;
+  height: 27px;
+
+  &:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+}
+
+.modal-button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: #ffffff;
+  margin: 10px 3px 5px 3px;
+}
+
+.back-blue {
+  background-color: #004aad;
+
+  &:hover {
+    background-color: #003e8f;
+  }
+}
+
+.back-sky {
+  background-color: #7ac0f0;
+
+  &:hover {
+    background-color: #79b9e4;
+  }
+}
+
+.load-more-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: #ffffff;
+  color: #bbbbbb;
+  border-radius: 20px;
+
+  &:hover {
+    background-color: #d5d5d5;
+    color: #ffffff;
+  }
+}

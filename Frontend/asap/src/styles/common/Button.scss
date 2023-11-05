@@ -1,0 +1,38 @@
+button {
+  &:focus {
+    outline: transparent;
+  }
+}
+
+.link-style {
+  outline: none;
+  border: none;
+
+  &:hover {
+    font-weight: 600;
+  }
+}
+
+.supply-button {
+  padding: 7px 13px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+
+.black-back {
+  background-color: #000000;
+
+  &:hover {
+    background-color: #353535;
+  }
+}
+
+.page-text {
+  color: #000000;
+
+  &:hover {
+    color: #004096;
+  }
+}

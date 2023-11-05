@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: c202_api
+    url: jdbc:mysql://j9c202.p.ssafy.io:3306/asap_api
+    password: '!asap1290!@()'
+  jpa:
+    properties:
+      hibernate:
+        format_sql: 'true'
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+  profiles:
+    active: local
+
+  data:
+    redis:
+      host: j9c202.p.ssafy.io
+      password: asap123!@#
+      port: 6379
+    mongodb:
+      host: j9c202.p.ssafy.io
+      port: 27017
+      authentication-database: admin
+      username: 'asap'
+      password: '!asap123!@#'
+      database: asap
+
+server:
+  port: '9001'
+  allow-header: "8E6E21BF3296265C20F84D34F85DA9AA0FAFFFAD8B1BFA661B80FF8199BFA9D7"
+  test-header: "8504B52D334CA504BFCC1A10CDF7F752BDC9F46189A4930047B91D9D921815DC"
+  coinbase: "0xb2f25bea384704fc26d60f1bf7490444df21babe"
+  pwd: "pass"
+
+
+# 개인키 모음
+private-key:
+  kakao:
+    rest-api: "KakaoAK 8f721a216fd93270b57928cf397354d2"

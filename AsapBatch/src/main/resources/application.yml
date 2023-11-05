@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: c202_api
+    url: jdbc:mysql://j9c202.p.ssafy.io:3306/asap_api
+    password: '!asap1290!@()'
+  jpa:
+    properties:
+      hibernate:
+        format_sql: 'true'
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+  profiles:
+    active: local
+
+server:
+  allow-header: "8E6E21BF3296265C20F84D34F85DA9AA0FAFFFAD8B1BFA661B80FF8199BFA9D7"
+  port: 9100

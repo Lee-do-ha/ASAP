@@ -1,0 +1,43 @@
+.api-table {
+  width: 100%;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #004aad;
+  color: #ffffff;
+}
+
+.header-item {
+  padding: 10px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  border: 1px solid #c5c5c5;
+}
+
+.table-content {
+  flex-grow: 1;
+}
+
+.data-item {
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.col-table-1 {
+  width: 20%;
+}
+
+.col-table-2 {
+  width: 20%;
+}
+
+.col-table-3 {
+  width: 45%;
+}
+
+.col-table-4 {
+  width: 15%;
+}

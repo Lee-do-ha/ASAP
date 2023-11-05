@@ -1,0 +1,17 @@
+.outer {
+  width: 70%;
+}
+
+.inner {
+  height: 30px;
+  width: 95%;
+}
+
+.iconbox {
+  width: 25px; /* 아이콘의 너비를 조절합니다. */
+  height: 25px; /* 아이콘의 높이를 조절합니다. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}

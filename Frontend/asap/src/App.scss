@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-container {
+  font-family: 'Pretendard-Regular';
+  height: auto;
+  min-height: 100%;
+}
+
+.page-container {
+  padding: 50px 0px;
+}
+
+$blue: #004aad;
+$skyblue: #6ba9d4;
+
+.color-blue {
+  color: $blue;
+}
+
+.color-skyblue {
+  color: $skyblue;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-skyblue {
+  background-color: $skyblue;
+}

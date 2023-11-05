@@ -1,0 +1,90 @@
+.collapse {
+  display: block;
+  border-radius: rounded-lg;
+  background-color: white;
+  padding: 6px;
+  box-shadow:
+    0 2px 15px -3px rgba(0, 0, 0, 0.07),
+    0 10px 20px -2px rgba(0, 0, 0, 0.04);
+}
+
+.leftMenu {
+  position: sticky;
+  top: 15px;
+  align-self: flex-start;
+}
+
+.selected {
+  background-color: #c4c2c2;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  height: 40px;
+  margin: 5px 0px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.no-selected {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  height: 40px;
+  margin: 5px 0px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.border-right {
+  border-right: 1px solid #e7e7e7d8; /* 선 색상을 원하는 대로 설정 */
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e7e7e7d8; /* 선 색상을 원하는 대로 설정 */
+}
+
+.wait {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #aed2ec;
+  color: white;
+  font-weight: 700;
+}
+
+.approve {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #1aa90d;
+  color: white;
+  font-weight: 700;
+}
+
+.proceed {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #3e87e7;
+  color: white;
+  font-weight: 700;
+}
+
+.reject {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #e33e36;
+  color: white;
+  font-weight: 700;
+}
+
+.applyDiv {
+  position: relative;
+}
+
+.applyButton {
+  position: absolute;
+  right: 5%;
+}

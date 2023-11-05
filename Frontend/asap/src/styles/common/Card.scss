@@ -1,0 +1,30 @@
+.card-container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-container {
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-container > * {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.use-text {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}

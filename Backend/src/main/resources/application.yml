@@ -1,0 +1,38 @@
+server:
+  test-header: 8504B52D334CA504BFCC1A10CDF7F752BDC9F46189A4930047B91D9D921815DC
+  port: '9000'
+  allow-header: 8E6E21BF3296265C20F84D34F85DA9AA0FAFFFAD8B1BFA661B80FF8199BFA9D7
+spring:
+  data:
+    redis:
+      password: asap123!@#
+      port: '6379'
+      host: j9c202.p.ssafy.io
+  profiles:
+    active: local
+  datasource:
+    password: '!asap1290!@()'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: c202
+    url: jdbc:mysql://j9c202.p.ssafy.io/asap
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: 'true'
+mail:
+  admin:
+    password: bqyfrzjdbpnthwuf
+    id: victoryddh
+security:
+  jwt:
+    sercret:
+      key: asapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKeyasapSecurityTestSecretKey
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, prometheus
